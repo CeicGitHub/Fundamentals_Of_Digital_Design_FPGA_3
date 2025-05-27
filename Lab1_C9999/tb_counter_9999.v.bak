@@ -1,0 +1,88 @@
+`timescale 1ns/1ps
+
+module tb_counter_9999();
+
+    parameter WIDTH = 14;
+    parameter LIMIT = 9999;
+
+    reg clk = 0;
+    reg rst;
+    reg en;
+    reg load;
+    reg up_down;
+    reg [WIDTH-1:0] data_in;
+
+    wire last;
+    wire [6:0] seg0, seg1, seg2, seg3;
+
+    // Instantiate top-level module
+    top_counter_display uut (
+        .clk(clk),
+        .rst(rst),
+        .en(en),
+        .load(load),
+        .up_down(up_down),
+        .data_in(data_in),
+        .last(last),
+        .seg0(seg0),
+        .seg1(seg1),
+        .seg2(seg2),
+        .seg3(seg3)
+    );
+
+    // Clock generation
+    always #5 clk = ~clk;  // 10 ns clock period
+
+    initial begin
+        $display("Starting simulation...");
+        rst = 1; en = 0; load = 0; up_down = 0; data_in = 0;
+        #20;
+
+        // Reset counter
+        rst = 0;
+        #10;
+
+        // Load a valid value
+        en = 1;
+        data_in = 1234;
+        load = 1;
+        #10 load = 0;
+        #20;
+
+        // Count up a few cycles
+        up_down = 0;
+        repeat (5) #10;
+
+        // Count down
+        up_down = 1;
+        repeat (5) #10;
+
+        // Load value > LIMIT (should reset to 0)
+        data_in = 11000;
+        load = 1;
+        #10 load = 0;
+        #20;
+
+        // Test overflow from 9999 → 0
+        data_in = 9999;
+        load = 1;
+        #10 load = 0;
+        up_down = 0; // counting up
+        #10;
+
+        // Test underflow from 0 → 9999
+        data_in = 0;
+        load = 1;
+        #10 load = 0;
+        up_down = 1;
+        #10;
+
+        // Disable enable
+        en = 0;
+        #20;
+
+        $display("Finished simulation.");
+        $stop;
+    end
+
+endmodule
