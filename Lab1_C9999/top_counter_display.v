@@ -1,5 +1,5 @@
 module top_counter_display (
-    input CLOCK_50,           // Reloj principal de la FPGA
+    input CLOCK_50,           // MainClock_50MHZ FPGA
     input key_clk,            // KEY[0]
     input rst,
     input en,
@@ -23,11 +23,11 @@ module top_counter_display (
     wire [3:0] u, t, h, th;
 
     counter_9999 counter_inst (
-        .clk(clk_pulse),       // Pulso generado al presionar el botón
+        .clk(clk_pulse),       // +1 when pulse the clokc KEY[0]
         .rst(rst),
         .en(en),
         .load(load),
-        .up_down(up_down),
+		  .up_down(up_down),
         .data_in(data_in),
         .last(last),
         .q(q)

@@ -1,10 +1,10 @@
 vendor_name = ModelSim
-source_file = 1, D:/Verilog/Modulo3/Lab1_C9999/counter_9999.v
-source_file = 1, D:/Verilog/Modulo3/Lab1_C9999/bin_to_bcd.v
-source_file = 1, D:/Verilog/Modulo3/Lab1_C9999/bcd_to_7seg.v
-source_file = 1, D:/Verilog/Modulo3/Lab1_C9999/top_counter_display.v
-source_file = 1, D:/Verilog/Modulo3/Lab1_C9999/tb_counter_9999.v
-source_file = 1, D:/Verilog/Modulo3/Lab1_C9999/db/counter_9999.cbx.xml
+source_file = 1, D:/Verilog/Modulo3/Fundamentals_Of_Digital_Design_FPGA_3/Lab1_C9999/counter_9999.v
+source_file = 1, D:/Verilog/Modulo3/Fundamentals_Of_Digital_Design_FPGA_3/Lab1_C9999/bin_to_bcd.v
+source_file = 1, D:/Verilog/Modulo3/Fundamentals_Of_Digital_Design_FPGA_3/Lab1_C9999/bcd_to_7seg.v
+source_file = 1, D:/Verilog/Modulo3/Fundamentals_Of_Digital_Design_FPGA_3/Lab1_C9999/top_counter_display.v
+source_file = 1, D:/Verilog/Modulo3/Fundamentals_Of_Digital_Design_FPGA_3/Lab1_C9999/tb_counter_9999.v
+source_file = 1, D:/Verilog/Modulo3/Fundamentals_Of_Digital_Design_FPGA_3/Lab1_C9999/db/counter_9999.cbx.xml
 design_name = top_counter_display
 instance = comp, \last~output , last~output, top_counter_display, 1
 instance = comp, \seg0[0]~output , seg0[0]~output, top_counter_display, 1
