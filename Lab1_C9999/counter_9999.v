@@ -9,7 +9,7 @@ module counter_9999 #(
     input wire rst,
     input wire en,
     input wire load,
-    input wire up_down,  			// state(0) = count up, state(1) = count down
+    input wire up_down,  // 0 = up, 1 = down
     input wire [WIDTH-1:0] data_in,
     output wire last,
     output reg [WIDTH-1:0] q
@@ -19,12 +19,12 @@ module counter_9999 #(
         if (rst) begin
             q <= 0;
         end else if (en) begin
-            if (load) begin                
+            if (load) begin
                 if (data_in > LIMIT)
                     q <= 0;
                 else
                     q <= data_in;
-            end else if (!up_down) begin     //This condition allow the count up and down in [SW3]
+            end else if (!up_down) begin
                 if (q == LIMIT)
                     q <= 0;
                 else
