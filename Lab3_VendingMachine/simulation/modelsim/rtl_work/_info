@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Verilog/Modulo3/Lab3_VendingMachine/simulation/modelsim
+vtb_vending_machine
+Z1 !s110 1748811908
+!i10b 1
+!s100 KF354V:O:kOdNOQUFh^0`2
+IPcNLI4ULAYkM5dMbRlOLI2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1748810035
+8D:/Verilog/Modulo3/Lab3_VendingMachine/tb_vending_machine.v
+FD:/Verilog/Modulo3/Lab3_VendingMachine/tb_vending_machine.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1748811908.000000
+!s107 D:/Verilog/Modulo3/Lab3_VendingMachine/tb_vending_machine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab3_VendingMachine|D:/Verilog/Modulo3/Lab3_VendingMachine/tb_vending_machine.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab3_VendingMachine
+Z7 tCvgOpt 0
+vvending_multi_purchase
+R1
+!i10b 1
+!s100 CS:BKd9XWoU`N^II^czGb3
+IVkPz1;`EnVFQQUznk_h411
+R2
+R0
+w1748809997
+8D:/Verilog/Modulo3/Lab3_VendingMachine/vending_multi_purchase.v
+FD:/Verilog/Modulo3/Lab3_VendingMachine/vending_multi_purchase.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab3_VendingMachine/vending_multi_purchase.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab3_VendingMachine|D:/Verilog/Modulo3/Lab3_VendingMachine/vending_multi_purchase.v|
+!i113 1
+R5
+R6
+R7

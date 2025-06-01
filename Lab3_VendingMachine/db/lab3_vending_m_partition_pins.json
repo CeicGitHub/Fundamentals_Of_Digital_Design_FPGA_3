@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "display_credit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_credit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_credit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_credit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_credit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_credit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_credit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display_change[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_change[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_change[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_change[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_change[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_change[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_change[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display_price[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_price[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_price[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_price[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_price[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_price[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_price[6]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_led",
+					"strict" : false
+				},
+				{
+					"name" : "state_leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state_leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_product[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_product[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "cancel_btn",
+					"strict" : false
+				},
+				{
+					"name" : "dispense_btn",
+					"strict" : false
+				},
+				{
+					"name" : "coin_btn",
+					"strict" : false
+				},
+				{
+					"name" : "product_dispensed_sw",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
