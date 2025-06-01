@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Verilog/Modulo3/Lab1_C9999/simulation/modelsim
+vbcd_to_7seg
+Z1 !s110 1748800490
+!i10b 1
+!s100 SETSCQiC?RJ1Lm7AaXRXa3
+I6PTYBbk@M9?gD^TZbR^JP1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1748320442
+8D:/Verilog/Modulo3/Lab1_C9999/bcd_to_7seg.v
+FD:/Verilog/Modulo3/Lab1_C9999/bcd_to_7seg.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1748800490.000000
+!s107 D:/Verilog/Modulo3/Lab1_C9999/bcd_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab1_C9999|D:/Verilog/Modulo3/Lab1_C9999/bcd_to_7seg.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab1_C9999
+Z7 tCvgOpt 0
+vbin_to_bcd
+R1
+!i10b 1
+!s100 i?NcV[]JDC:gJ0CK07DZA3
+INW6G<g2i@S_]F1agj>Vga1
+R2
+R0
+w1748325056
+8D:/Verilog/Modulo3/Lab1_C9999/bin_to_bcd.v
+FD:/Verilog/Modulo3/Lab1_C9999/bin_to_bcd.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab1_C9999/bin_to_bcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab1_C9999|D:/Verilog/Modulo3/Lab1_C9999/bin_to_bcd.v|
+!i113 1
+R5
+R6
+R7
+vcounter_9999
+R1
+!i10b 1
+!s100 2WZ9@S7znd[S[@4nDhAP`0
+IVkZBi4QI>FBY1lkdGY?ib3
+R2
+R0
+w1748356038
+8D:/Verilog/Modulo3/Lab1_C9999/counter_9999.v
+FD:/Verilog/Modulo3/Lab1_C9999/counter_9999.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab1_C9999/counter_9999.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab1_C9999|D:/Verilog/Modulo3/Lab1_C9999/counter_9999.v|
+!i113 1
+R5
+R6
+R7
+vtb_top_counter_display
+R1
+!i10b 1
+!s100 HdmWb[E>1`HGdiScZXTOZ2
+IG1<<fdbRCYAP@6hNXaji?3
+R2
+R0
+w1748320492
+8D:/Verilog/Modulo3/Lab1_C9999/tb_counter_9999.v
+FD:/Verilog/Modulo3/Lab1_C9999/tb_counter_9999.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab1_C9999/tb_counter_9999.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab1_C9999|D:/Verilog/Modulo3/Lab1_C9999/tb_counter_9999.v|
+!i113 1
+R5
+R6
+R7
+vtop_counter_display
+R1
+!i10b 1
+!s100 _c]Xi7n7jZ0=A7aS8^4Ug3
+Iiafl<<B<`_4E?@iKB;UH:0
+R2
+R0
+w1748635075
+8D:/Verilog/Modulo3/Lab1_C9999/top_counter_display.v
+FD:/Verilog/Modulo3/Lab1_C9999/top_counter_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab1_C9999/top_counter_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab1_C9999|D:/Verilog/Modulo3/Lab1_C9999/top_counter_display.v|
+!i113 1
+R5
+R6
+R7

@@ -1,5 +1,5 @@
 Fitter report for counter_9999
-Sat May 31 11:24:18 2025
+Sun Jun 01 10:52:34 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sat May 31 11:24:18 2025       ;
+; Fitter Status                      ; Successful - Sun Jun 01 10:52:34 2025       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; counter_9999                                ;
 ; Top-level Entity Name              ; top_counter_display                         ;
@@ -1840,7 +1840,7 @@ Info (176353): Automatically promoted node clk_pulse  File: D:/Verilog/Modulo3/L
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1861,10 +1861,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file D:/Verilog/Modulo3/Lab1_C9999/output_files/counter_9999.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 5827 megabytes
-    Info: Processing ended: Sat May 31 11:24:18 2025
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 5831 megabytes
+    Info: Processing ended: Sun Jun 01 10:52:35 2025
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:26
 
 
 +----------------------------+
