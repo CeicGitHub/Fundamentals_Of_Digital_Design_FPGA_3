@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at control_fsm.sv(8): object "shift" differs only in case from object "SHIFT" in the same scope File: D:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv Line: 8
+Info (10281): Verilog HDL Declaration information at control_fsm.sv(11): object "done" differs only in case from object "DONE" in the same scope File: D:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv Line: 11

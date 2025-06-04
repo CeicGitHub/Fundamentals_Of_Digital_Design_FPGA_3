@@ -1,0 +1,145 @@
+|serial_adder_top
+clk => clk.IN6
+rst => rst.IN6
+start => start.IN1
+in_a[0] => in_a[0].IN1
+in_a[1] => in_a[1].IN1
+in_a[2] => in_a[2].IN1
+in_a[3] => in_a[3].IN1
+in_b[0] => in_b[0].IN1
+in_b[1] => in_b[1].IN1
+in_b[2] => in_b[2].IN1
+in_b[3] => in_b[3].IN1
+sum[0] << output_reg:result.sum
+sum[1] << output_reg:result.sum
+sum[2] << output_reg:result.sum
+sum[3] << output_reg:result.sum
+carry_out << carry_wire.DB_MAX_OUTPUT_PORT_TYPE
+done << control_fsm:ctrl.done
+
+
+|serial_adder_top|control_fsm:ctrl
+clk => done~reg0.CLK
+clk => current_state~1.DATAIN
+rst => done~reg0.ACLR
+rst => current_state~3.DATAIN
+start => always3.IN0
+start => next_state.LOAD.DATAB
+start => Selector2.IN2
+start => Selector0.IN1
+count_done => Selector2.IN3
+count_done => Selector1.IN2
+load_inputs <= load_out.DB_MAX_OUTPUT_PORT_TYPE
+load_out <= load_out.DB_MAX_OUTPUT_PORT_TYPE
+shift <= count_enable.DB_MAX_OUTPUT_PORT_TYPE
+count_enable <= count_enable.DB_MAX_OUTPUT_PORT_TYPE
+done <= done~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder_top|counter:cnt
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+rst => count[0].ACLR
+rst => count[1].ACLR
+rst => count[2].ACLR
+enable => count[0].ENA
+enable => count[2].ENA
+enable => count[1].ENA
+done <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder_top|input_reg:reg_a
+clk => data[0].CLK
+clk => data[1].CLK
+clk => data[2].CLK
+clk => data[3].CLK
+rst => data[0].ACLR
+rst => data[1].ACLR
+rst => data[2].ACLR
+rst => data[3].ACLR
+load => data.OUTPUTSELECT
+load => data.OUTPUTSELECT
+load => data.OUTPUTSELECT
+load => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+data_in[0] => data.DATAB
+data_in[1] => data.DATAB
+data_in[2] => data.DATAB
+data_in[3] => data.DATAB
+lsb_out <= data[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder_top|input_reg:reg_b
+clk => data[0].CLK
+clk => data[1].CLK
+clk => data[2].CLK
+clk => data[3].CLK
+rst => data[0].ACLR
+rst => data[1].ACLR
+rst => data[2].ACLR
+rst => data[3].ACLR
+load => data.OUTPUTSELECT
+load => data.OUTPUTSELECT
+load => data.OUTPUTSELECT
+load => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+shift => data.OUTPUTSELECT
+data_in[0] => data.DATAB
+data_in[1] => data.DATAB
+data_in[2] => data.DATAB
+data_in[3] => data.DATAB
+lsb_out <= data[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder_top|full_adder:adder
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder_top|carry_logic:carry
+clk => carry_out~reg0.CLK
+rst => carry_out~reg0.ACLR
+load => carry_out~reg0.ENA
+carry_in => carry_out~reg0.DATAIN
+carry_out <= carry_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial_adder_top|output_reg:result
+clk => sum[0]~reg0.CLK
+clk => sum[1]~reg0.CLK
+clk => sum[2]~reg0.CLK
+clk => sum[3]~reg0.CLK
+rst => sum[0]~reg0.ACLR
+rst => sum[1]~reg0.ACLR
+rst => sum[2]~reg0.ACLR
+rst => sum[3]~reg0.ACLR
+load => sum.OUTPUTSELECT
+load => sum.OUTPUTSELECT
+load => sum.OUTPUTSELECT
+load => sum.OUTPUTSELECT
+shift => sum.OUTPUTSELECT
+shift => sum.OUTPUTSELECT
+shift => sum.OUTPUTSELECT
+shift => sum.OUTPUTSELECT
+sum_bit => sum.DATAB
+sum[0] <= sum[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

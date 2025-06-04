@@ -1,0 +1,189 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Verilog/Modulo3/Lab5_SerialAdder/simulation/modelsim
+vcarry_logic
+Z1 !s110 1749009892
+!i10b 1
+!s100 bniJm]gCzFOjK3z9K_Uo]1
+ISjf0FB>ISie>hehSGIFSN1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1748908430
+8D:/Verilog/Modulo3/Lab5_SerialAdder/carry_logic.v
+FD:/Verilog/Modulo3/Lab5_SerialAdder/carry_logic.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1749009892.000000
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/carry_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/carry_logic.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder
+Z7 tCvgOpt 0
+vcontrol_fsm
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 ;B9`O?GQ?5M<oYeYfIO102
+IEYk`Hm<@hk6UNLCj17Jo33
+R2
+!s105 control_fsm_sv_unit
+S1
+R0
+w1749008758
+8D:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv
+FD:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder
+R7
+vcounter
+R1
+!i10b 1
+!s100 4nUFYPiTzTi@TDZ8J<fM^0
+I>HER@h05VUo4_j>U@Q?]C1
+R2
+R0
+w1748914044
+8D:/Verilog/Modulo3/Lab5_SerialAdder/counter.v
+FD:/Verilog/Modulo3/Lab5_SerialAdder/counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/counter.v|
+!i113 1
+R5
+R6
+R7
+vfull_adder
+R1
+!i10b 1
+!s100 ie@i@LUgkDSXLA`0@AZiI0
+IP;::=DB^JhclkAUED2LnX2
+R2
+R0
+w1748907804
+8D:/Verilog/Modulo3/Lab5_SerialAdder/full_adder.v
+FD:/Verilog/Modulo3/Lab5_SerialAdder/full_adder.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/full_adder.v|
+!i113 1
+R5
+R6
+R7
+vinput_reg
+R1
+!i10b 1
+!s100 ck5HmN:Tc0ceI6eZY033G2
+IMno><a__f<fnnLLEd;@bi0
+R2
+R0
+w1748911483
+8D:/Verilog/Modulo3/Lab5_SerialAdder/input_reg.v
+FD:/Verilog/Modulo3/Lab5_SerialAdder/input_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/input_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/input_reg.v|
+!i113 1
+R5
+R6
+R7
+voutput_reg
+R1
+!i10b 1
+!s100 z14`kch=l4m2j0Q^]JFe70
+IFjDlm>4DmfKm:57UoMFO70
+R2
+R0
+w1748925717
+8D:/Verilog/Modulo3/Lab5_SerialAdder/output_reg.v
+FD:/Verilog/Modulo3/Lab5_SerialAdder/output_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/output_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/output_reg.v|
+!i113 1
+R5
+R6
+R7
+vserial_adder_top
+R1
+!i10b 1
+!s100 HYJg8[dz6dIo[>@dFR;8>2
+IKcYlW=FG@AZ4:>MnV]QlM1
+R2
+R0
+w1749000924
+8D:/Verilog/Modulo3/Lab5_SerialAdder/serial_adder_top.v
+FD:/Verilog/Modulo3/Lab5_SerialAdder/serial_adder_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/serial_adder_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/serial_adder_top.v|
+!i113 1
+R5
+R6
+R7
+vtb_serial_adder
+R1
+!i10b 1
+!s100 k<WkL46Dcb2oKo<VZM5MS2
+IlM;:[gmg0o^U@O2UO^Egd1
+R2
+R0
+w1749008382
+8D:/Verilog/Modulo3/Lab5_SerialAdder/tb_serial_adder.v
+FD:/Verilog/Modulo3/Lab5_SerialAdder/tb_serial_adder.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Verilog/Modulo3/Lab5_SerialAdder/tb_serial_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder|D:/Verilog/Modulo3/Lab5_SerialAdder/tb_serial_adder.v|
+!i113 1
+R5
+R6
+R7

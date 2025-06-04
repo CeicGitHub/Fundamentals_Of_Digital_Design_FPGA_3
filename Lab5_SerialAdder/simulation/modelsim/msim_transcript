@@ -1,0 +1,122 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do L5_SerialAdder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/carry_logic.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/carry_logic.v 
+# -- Compiling module carry_logic
+# 
+# Top level modules:
+# 	carry_logic
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/input_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/input_reg.v 
+# -- Compiling module input_reg
+# 
+# Top level modules:
+# 	input_reg
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/output_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/output_reg.v 
+# -- Compiling module output_reg
+# 
+# Top level modules:
+# 	output_reg
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/serial_adder_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/serial_adder_top.v 
+# -- Compiling module serial_adder_top
+# 
+# Top level modules:
+# 	serial_adder_top
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/control_fsm.sv 
+# -- Compiling module control_fsm
+# 
+# Top level modules:
+# 	control_fsm
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Verilog/Modulo3/Lab5_SerialAdder {D:/Verilog/Modulo3/Lab5_SerialAdder/tb_serial_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:04:52 on Jun 03,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Verilog/Modulo3/Lab5_SerialAdder" D:/Verilog/Modulo3/Lab5_SerialAdder/tb_serial_adder.v 
+# -- Compiling module tb_serial_adder
+# 
+# Top level modules:
+# 	tb_serial_adder
+# End time: 21:04:52 on Jun 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_serial_adder
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_serial_adder 
+# Start time: 21:04:53 on Jun 03,2025
+# Loading work.tb_serial_adder
+# Loading work.serial_adder_top
+# Loading sv_std.std
+# Loading work.control_fsm
+# Loading work.counter
+# Loading work.input_reg
+# Loading work.full_adder
+# Loading work.carry_logic
+# Loading work.output_reg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Inicio de testbench para elserial adder
+# T=0 | A=0000, B=0000 | SUM=0000 | CARRY=0 | DONE=0
+# T=20000 | A=0011, B=0101 | SUM=0000 | CARRY=0 | DONE=0
+# T=45000 | A=0011, B=0101 | SUM=0000 | CARRY=1 | DONE=0
+# T=75000 | A=0011, B=0101 | SUM=1000 | CARRY=0 | DONE=0
+# Break key hit
+# Break in Module input_reg at D:/Verilog/Modulo3/Lab5_SerialAdder/input_reg.v line 11
+# End time: 21:29:17 on Jun 03,2025, Elapsed time: 0:24:24
+# Errors: 0, Warnings: 0
