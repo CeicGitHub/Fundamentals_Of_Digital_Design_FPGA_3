@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 04 16:38:20 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : adder_tree
+Top-level Entity Name : adder_tree
+Family : Cyclone IV E
+Total logic elements : 768
+    Total combinational functions : 480
+    Dedicated logic registers : 768
+Total registers : 768
+Total pins : 545
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

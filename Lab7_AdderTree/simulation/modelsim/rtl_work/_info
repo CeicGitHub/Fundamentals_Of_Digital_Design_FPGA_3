@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Verilog/Modulo3/Lab7_AdderTree/simulation/modelsim
+vadder_tree
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1749080949
+!i10b 1
+!s100 NQKzj?j^PBz:]8S^ZfJeD3
+I0gO<c60CYL?Q<H1>FT><21
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_tree_sv_unit
+S1
+R0
+w1749078868
+8D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree.sv
+FD:/Verilog/Modulo3/Lab7_AdderTree/adder_tree.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1749080949.000000
+!s107 D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Verilog/Modulo3/Lab7_AdderTree|D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+D:/Verilog/Modulo3/Lab7_AdderTree
+Z8 tCvgOpt 0
+vadder_tree_tb
+R1
+R2
+!i10b 1
+!s100 1[0c8G2IW<gD56^33Hljn3
+IF7lF9EQS96Thb[^8IhNf;1
+R3
+!s105 adder_tree_tb_sv_unit
+S1
+R0
+w1749080279
+8D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv
+FD:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Verilog/Modulo3/Lab7_AdderTree|D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv|
+!i113 1
+R6
+R7
+R8

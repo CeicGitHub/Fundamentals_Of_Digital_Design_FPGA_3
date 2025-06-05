@@ -1,0 +1,102 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do adder_tree_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Verilog/Modulo3/Lab7_AdderTree {D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:49:09 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Verilog/Modulo3/Lab7_AdderTree" D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree.sv 
+# -- Compiling module adder_tree
+# 
+# Top level modules:
+# 	adder_tree
+# End time: 16:49:09 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/Verilog/Modulo3/Lab7_AdderTree {D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:49:09 on Jun 04,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Verilog/Modulo3/Lab7_AdderTree" D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv 
+# -- Compiling module adder_tree_tb
+# 
+# Top level modules:
+# 	adder_tree_tb
+# End time: 16:49:09 on Jun 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  adder_tree_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" adder_tree_tb 
+# Start time: 16:49:09 on Jun 04,2025
+# Loading sv_std.std
+# Loading work.adder_tree_tb
+# Loading work.adder_tree
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iteration 70000 ns -> data_out = 291207195 | expected = 291207195
+# Iteration 140000 ns -> data_out = 4240119793 | expected = 4240119793
+# Iteration 210000 ns -> data_out = 4294112761 | expected = 4294112761
+# Iteration 280000 ns -> data_out = 219356691 | expected = 219356691
+# Iteration 350000 ns -> data_out = 2586541868 | expected = 2586541868
+# Iteration 420000 ns -> data_out = 2706119995 | expected = 2706119995
+# Iteration 490000 ns -> data_out = 2693070138 | expected = 2693070138
+# Iteration 560000 ns -> data_out = 2581995821 | expected = 2581995821
+# Iteration 630000 ns -> data_out = 327124509 | expected = 327124509
+# Iteration 700000 ns -> data_out = 392242215 | expected = 392242215
+# Iteration 770000 ns -> data_out = 865795167 | expected = 865795167
+# Iteration 840000 ns -> data_out = 2050828013 | expected = 2050828013
+# Iteration 910000 ns -> data_out = 2169997051 | expected = 2169997051
+# Iteration 980000 ns -> data_out = 1660560574 | expected = 1660560574
+# Iteration 1050000 ns -> data_out = 3174370676 | expected = 3174370676
+# Iteration 1120000 ns -> data_out = 2987927900 | expected = 2987927900
+# Iteration 1190000 ns -> data_out = 3887303111 | expected = 3887303111
+# Iteration 1260000 ns -> data_out = 2283218698 | expected = 2283218698
+# Iteration 1330000 ns -> data_out = 1095960188 | expected = 1095960188
+# Iteration 1400000 ns -> data_out = 1165437570 | expected = 1165437570
+# Iteration 1470000 ns -> data_out = 1251183245 | expected = 1251183245
+# Iteration 1540000 ns -> data_out = 2327325965 | expected = 2327325965
+# Iteration 1610000 ns -> data_out = 3287616383 | expected = 3287616383
+# Iteration 1680000 ns -> data_out = 945434729 | expected = 945434729
+# Iteration 1750000 ns -> data_out = 2918681428 | expected = 2918681428
+# Iteration 1820000 ns -> data_out = 1859989205 | expected = 1859989205
+# Iteration 1890000 ns -> data_out = 1226512525 | expected = 1226512525
+# Iteration 1960000 ns -> data_out = 2395026709 | expected = 2395026709
+# Iteration 2030000 ns -> data_out = 366975010 | expected = 366975010
+# Iteration 2100000 ns -> data_out = 948320361 | expected = 948320361
+# Iteration 2170000 ns -> data_out = 3569685921 | expected = 3569685921
+# Iteration 2240000 ns -> data_out = 1286355601 | expected = 1286355601
+# Iteration 2310000 ns -> data_out = 2253101317 | expected = 2253101317
+# Iteration 2380000 ns -> data_out = 3954390993 | expected = 3954390993
+# Iteration 2450000 ns -> data_out = 1794317006 | expected = 1794317006
+# Iteration 2520000 ns -> data_out = 1981496545 | expected = 1981496545
+# Iteration 2590000 ns -> data_out = 54237693 | expected = 54237693
+# Iteration 2660000 ns -> data_out = 2355378447 | expected = 2355378447
+# Iteration 2730000 ns -> data_out = 262480920 | expected = 262480920
+# Iteration 2800000 ns -> data_out = 252593175 | expected = 252593175
+# Iteration 2870000 ns -> data_out = 2427431194 | expected = 2427431194
+# Iteration 2940000 ns -> data_out = 513360434 | expected = 513360434
+# Iteration 3010000 ns -> data_out = 3336249221 | expected = 3336249221
+# Iteration 3080000 ns -> data_out = 461717038 | expected = 461717038
+# Iteration 3150000 ns -> data_out = 849847902 | expected = 849847902
+# Iteration 3220000 ns -> data_out = 2790410051 | expected = 2790410051
+# Iteration 3290000 ns -> data_out = 2492802848 | expected = 2492802848
+# Iteration 3360000 ns -> data_out = 2675984694 | expected = 2675984694
+# Iteration 3430000 ns -> data_out = 3978536914 | expected = 3978536914
+# Iteration 3500000 ns -> data_out = 663702087 | expected = 663702087
+# All the iterations were passed.
+# ** Note: $finish    : D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv(69)
+#    Time: 3500 ns  Iteration: 1  Instance: /adder_tree_tb
+# 1
+# Break in Module adder_tree_tb at D:/Verilog/Modulo3/Lab7_AdderTree/adder_tree_tb.sv line 69
